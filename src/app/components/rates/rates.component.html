@@ -1,0 +1,5 @@
+<div class="rates-wrap">
+  <div class="rates-item" *ngFor="let item of requiredRates">
+    <div *ngIf="item.price">{{item.title}} - {{item.price}}</div>
+  </div>
+</div>

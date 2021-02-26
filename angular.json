@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "binan"
+    }
+  },
+  "defaultProject": "binan",
+  "cli": {
+    "analytics": false
+  }
 }

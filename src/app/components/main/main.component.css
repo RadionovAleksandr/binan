@@ -1,0 +1,28 @@
+.wrap {
+  padding: 40px 0;
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
+  background: url('../../imgs/flamenco-easy-money.png') no-repeat;
+  background-size: 55%;
+  background-position: center;
+}
+
+.wrap__rates-title {
+  cursor: pointer;
+  display: inline;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-bottom: 4px solid #55B7CA;
+  margin: 40px;
+}
+
+.wrap__rates-title:hover {
+  color: #55B7CA;
+  box-shadow: 0 0 5px 2px #55B7CA;
+}
+
+.active {
+  color: #E76266;
+}
